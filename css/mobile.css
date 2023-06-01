@@ -1,0 +1,112 @@
+/* Mobile */
+/* Navbar */
+@media (max-width: 767px) {
+  .nav-brand {
+    display: none;
+  }
+  nav {
+    display: block;
+    height: auto;
+    border-bottom: none;
+  }
+  .container {
+    border-left: none;
+    justify-content: left;
+    padding: 10px;
+  }
+  .container nav-brand {
+    padding: -10px;
+  }
+  /* section-top(target & info) */
+  section-top {
+    display: block;
+    margin-top: -20px;
+    border-top: none;
+  }
+  .section-title {
+    /* margin-top: -50px; */
+    padding-top: 20px;
+  }
+  #target {
+    margin-left: 0;
+  }
+  /* Infomation */
+  section.infomation {
+    display: block;
+    column-count: 1;
+  }
+  #experience,
+  #education,
+  #activity,
+  #favorite,
+  #language,
+  #skill {
+    margin-right: 10px;
+    margin-left: 10px;
+    border-right: 1px solid rgba(128, 128, 128, 0.219);
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+  }
+
+  /* Certificate */
+  section.certificate {
+    background-color: rgba(128, 128, 128, 0.1);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .certi-content {
+    display: inline-block;
+  }
+  .certificate-img-3 {
+    width: 90%;
+    padding-left: 10px;
+  }
+  .content-certificate {
+    border-bottom: 1px solid #e3ca5c;
+  }
+  .content-certificate-2 {
+    border-left: none;
+    margin-top: 20px;
+  }
+  h5 {
+    line-height: 2;
+  }
+  p {
+    margin-bottom: 0px;
+  }
+  /* Project */
+  .project-content {
+    display: inline-block;
+  }
+  .content-flex > img {
+    width: 90%;
+  }
+  tr td {
+    width: 100%px;
+  }
+  /* Footer */
+  footer {
+    font-size: 85%;
+  }
+  /* Digital-CV */
+  .container-digitalcv {
+    display: block;
+  }
+  .content-scopes {
+    display: block;
+  }
+  .goals {
+    border-right: none;
+  }
+  .Scopes {
+    border-right: none;
+    border-bottom: 10px solid blue;
+  }
+  .team {
+    border-right: none;
+  }
+  .primary {
+    border-right: none;
+    border-bottom: 10px solid blue;
+    padding-bottom: 5%;
+  }
+}
